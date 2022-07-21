@@ -17,9 +17,9 @@ body {
 	align-items: center;
 	font-weight: 800;
 	background-color: #1f2938;
-	  position: fixed; /* Make it stick/fixed */
-  width: 100%; /* Full width */
-  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+	position: fixed; /* Make it stick/fixed */
+	width: 100%; /* Full width */
+	transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
 
 .footer {
@@ -29,7 +29,6 @@ body {
 	align-items: center;
 	padding: 8px;
 	color: #f9faf8;
-
 }
 h1 {
 	color: #f9faf8;
@@ -76,6 +75,12 @@ button {
 	border-radius: 4px;
 	padding: 30px;
 }
+.card-1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
 
 .quote {
 	display: flex;
@@ -87,6 +92,64 @@ button {
 	padding-right: 200px;
 }
 
+.info{
+	margin-top: 160px;
+}
+
+.top1{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	text-align: justify;
+	margin: 300px;
+	bottom: 0;
+	flex-direction: column;
+	color: #1f2937;
+	
+}
+
+.top1 h2{
+	font-weight: lighter;
+
+}
+.contact{
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.top2{
+	display: flex;
+	gap: 200px;
+	align-items: center;
+	justify-content: center;
+}
+
+form p, form h2 {
+	text-align: center;
+}
+
+
+
+ .top2 p{
+	color: black;
+
+}
+
+.btn1{
+	color: #1f2937;
+}
+
+
+.main{
+	border: 3px solid #1f2937;
+	border-radius: 10px;
+}
+.second p{
+	color: black;
+	font-size: 18px;
+}
 .signup {
 	display: flex;
 	margin: 200px;
@@ -108,6 +171,19 @@ button {
 	padding: 20px;
 }
 
+.container-2 {
+	flex: 1;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 200px;
+	gap: 80px;
+}
+
+.second{
+	color: black;
+	padding: 10px;
+}
 h2.text {
 	padding: 200px;
 	font-size: 36px;
@@ -121,6 +197,12 @@ h2 {
 	font-weight: 800;
 }
 .items {
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+}
+
+.img-list {
 	flex-wrap: wrap;
 	justify-content: center;
 	text-align: center;
@@ -148,4 +230,72 @@ a {
 	text-decoration: none;
 	color: #e5efeb;
 	font-size: 18px;
+}
+li:hover{
+	background-color: transparent;
+	border: 2px solid white;
+	padding: 10px;
+}
+
+.btnsub{
+	padding: 8px;
+	width: 100px;
+margin: 3px;
+}
+
+form{
+	padding: 20px;
+	width: 500px;
+	height: 650px;
+}
+
+input {
+	width: 500px;
+	height: 40px;
+	margin: 3px;
+	padding: 10px;
+	border-radius: 4px;
+	border: 1px solid black;
+}
+
+input.mess{
+	height: 200px;
+}
+
+
+.room-container{
+	display: flex;
+	flex: 1;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+	gap: 45px;
+	padding: 20px;
+	margin-top: 23px;
+}
+
+
+.room1 h1{
+	color: black;
+}
+
+
+.about{
+	flex: 1;
+}
+
+.items p{
+	color: black;
+	font-weight: lighter;
+}
+
+.items button{
+	width: 200px;
+	height: 50px;
+	padding: 10px;
+}
+
+.items img{
+	border-radius: 10px;
+	border: 3px solid #3882f6;
 }
